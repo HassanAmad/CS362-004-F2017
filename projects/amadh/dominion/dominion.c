@@ -654,7 +654,8 @@ int play_council_room(int currentPlayer, struct gameState *state, int handPos)
     }
     
     //+1 Buy
-    state->numBuys++;
+    //Commenting out this next line is meant to be a bug 
+    //state->numBuys++;
     
     //Each other player draws a card
     for (i = 0; i < state->numPlayers; i++)
@@ -676,7 +677,8 @@ int play_smithy(int currentPlayer, struct gameState *state, int handPos)
 {
     int i;
     //+3 Cards
-    for (i = 0; i < 3; i++)
+    //I introduced a bug here by changing "i < 3" to "i < 2"
+    for (i = 0; i < 2; i++)
     {
         drawCard(currentPlayer, state);
     }
@@ -692,7 +694,8 @@ int play_great_hall(int currentPlayer, struct gameState *state, int handPos)
     drawCard(currentPlayer, state);
     
     //+1 Actions
-    state->numActions++;
+    //Commenting out this next line is meant to be a bug
+    //state->numActions++;
     
     //discard card from hand
     discardCard(handPos, currentPlayer, state, 0);
@@ -732,7 +735,8 @@ int play_adventurer(int drawntreasure, struct gameState *state, int currentPlaye
         else
         {
             temphand[z]=cardDrawn;
-            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+            //I removed this next line to introduce a bug for assignment 2
+            //state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
             z++;
         }
     }

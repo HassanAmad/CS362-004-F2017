@@ -18,8 +18,7 @@ struct gameState* newGame() {
     return g;
 }
 
-int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7,
-                  int k8, int k9, int k10) {
+int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7, int k8, int k9, int k10) {
     int* k = malloc(10 * sizeof(int));
     k[0] = k1;
     k[1] = k2;

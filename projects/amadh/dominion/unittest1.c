@@ -11,7 +11,6 @@
 
 
 void equalityAssertion(int a, int b);
-//
 int main()
 {
 	int k1 = INT_MIN;

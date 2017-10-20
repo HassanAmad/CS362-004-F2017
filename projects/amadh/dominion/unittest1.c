@@ -34,7 +34,6 @@ int main()
 	equalityAssertion(k4, cards[3]);
 	equalityAssertion(k5, cards[4]);
 	
-	printf("\n\n\n");
 	return 0;
 }
 

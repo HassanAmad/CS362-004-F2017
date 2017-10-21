@@ -36,14 +36,14 @@ int main()
 	
 	return 0;
 }
-
+//
 void equalityAssertion(int a, int b)
 {
 	if(a == b)
 	{
-		printf("Success: equlity assertion passed\n");
+		printf("Success: equlity assertion passed\n\n");
 	}else
 	{
-		printf("Failure: equality assertion failed\n");
+		printf("Failure: equality assertion failed\n\n");
 	}
 }

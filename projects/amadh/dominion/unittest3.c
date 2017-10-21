@@ -49,7 +49,7 @@ int main()
 	who = whoseTurn(&G);
 	printf("Whose turn? %d\n", who);	
 	endTurn(&G);
-	printf("Ending turn..\n");
+	printf("Ending turn..\n\n");
 
 	return 0;
 }

@@ -47,7 +47,7 @@ int main()
 	scoreForP2 = scoreFor(player2, &state);
 
 	printf("Score for player 1: %d \n", scoreForP1);
-	printf("Score for player 2: %d \n", scoreForP2);
+	printf("Score for player 2: %d \n\n", scoreForP2);
 	
 	
 	

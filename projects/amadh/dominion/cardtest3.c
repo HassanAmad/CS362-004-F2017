@@ -29,7 +29,7 @@ printf("Number of actions before playing great hall:%d\n", state.numActions);
 cardEffect(card, choice1, choice2, choice3, &state, handPos, &coin_bonus);
 printf("If the cards in hand have an additional card then that works properly\n");
 printf("Cards in Hand after playing great hall: %d, %d, %d, %d, %d, %d, %d\n",state.hand[0][0], state.hand[0][1], state.hand[0][2], state.hand[0][3], state.hand[0][4], state.hand[0][5], state.hand[0][6]);
-printf("If the number of actions has increased since before playing great hall, then it works: %d\n", state.numActions);
+printf("If the number of actions has increased since before playing great hall, then it works: %d\n\n", state.numActions);
 
 
 	return 0;

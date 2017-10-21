@@ -11,7 +11,6 @@
 
 
 void equalityAssertion(int a, int b);
-
 int main()
 {
 	int k1 = INT_MIN;
@@ -35,17 +34,16 @@ int main()
 	equalityAssertion(k4, cards[3]);
 	equalityAssertion(k5, cards[4]);
 	
-	printf("\n\n\n");
 	return 0;
 }
-
+//
 void equalityAssertion(int a, int b)
 {
 	if(a == b)
 	{
-		printf("Success: equlity assertion passed\n");
+		printf("Success: equlity assertion passed\n\n");
 	}else
 	{
-		printf("Failure: equality assertion failed\n");
+		printf("Failure: equality assertion failed\n\n");
 	}
 }

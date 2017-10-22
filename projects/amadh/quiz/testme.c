@@ -14,7 +14,8 @@ char *inputString(char* str)
 	char *chrs = "abcdefghijklmnopqrstuvwxyz";
 	int numOfChrs = strlen(chrs);
 	int randChar;
-	for(int i= 0; i<5; i++ )
+	int i;
+	for(i= 0; i<5; i++ )
 	{
 		randChar = rand() % numOfChrs;   	
 		str[i]= chrs[randChar];
